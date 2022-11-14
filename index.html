@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap Components</title>
+
+		<!-- Logo of the website -->
+		<link rel="website icon" type="svg" href="./images/Bootstrap_logo.svg">
+
+		<!-- Link of the Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		  <a class="navbar-brand mr-auto" href="#">Ada Lovelace</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Tools</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		<!-- End of Navbar -->
+
+		<!-- Main Content -->
+		<div class = "container-fluid text-center">
+			<!-- Sidebar -->
+				<div class = "row">
+					<div class="accordion col-md-2 d-md-block d-none p-0" id="accordionExample">
+					  <div class="card">
+					    <div class="card-header" id="headingOne">
+					      <h2 class="mb-0">
+					        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					         Services
+					        </button>
+					      </h2>
+					    </div>
+
+					    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+					      <div class="card-body">
+					        <ul class = "text-justify list-unstyled">
+					        	<li>Front End Design</li>
+					        	<li>Back End Design</li>
+					        	<li>Full-Stack Development</li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingTwo">
+					      <h2 class="mb-0">
+					        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          Projects
+					        </button>
+					      </h2>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					      <div class="card-body">
+					        <ul class = "text-justify list-unstyled">
+					        	<li>HTML</li>
+					       		<li>CSS</li>
+					       		<li>Bootstrap</li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h2 class="mb-0">
+					        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Tools
+					        </button>
+					      </h2>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+					      <div class="card-body">
+					        <ul class = "text-justify list-unstyled">
+					        	<li>Core Tools</li>
+					        	<li>Other Tools</li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+
+					  <!-- Additional Collapsible Accordion-->
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h2 class="mb-0">
+					        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+					          Additional Accordion
+					        </button>
+					      </h2>
+					    </div>
+					    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+					      <div class="card-body">
+					        <ul class = "text-justify list-unstyled">
+					        	<li>Core Tools</li>
+					        	<li>Other Tools</li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- End of Sidebar -->
+
+					<!-- Main Body -->
+					<div class = "col-md-10 p-0">
+						<div class = "container-fluid bg-dark min-vh-100 text-light">
+							<img src="./images/ada.jpg" class="col-md-3 col-5 mt-5 rounded-circle" />
+
+							<h1>Ada Lovelace</h1>
+							<h3>Full-stack Developer</h3>
+
+							<div class = "row">
+								<div class = "col-8 offset-2">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+								
+							</div>
+
+							<!-- Carousel -->
+							<div class = "row mt-3 pb-3 d-none d-md-block ">
+								<div class = "col-md-6 offset-3 ">
+									<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+									  <ol class="carousel-indicators">
+									    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+									    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+									    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+									  </ol>
+									  <div class="carousel-inner">
+									    <div class="carousel-item active">
+									      <img src="https://place-puppy.com/500x300" class="d-block w-100" alt="Puppy">
+									      <div class="carousel-caption d-none d-md-block">
+									        <h5>First slide label</h5>
+									        <p>Some representative placeholder content for the first slide.</p>
+									      </div>
+									    </div>
+									    <div class="carousel-item">
+									      <img src="http://placekitten.com/500/300" class="d-block w-100" alt="Kitten">
+									      <div class="carousel-caption d-none d-md-block">
+									        <h5>Second slide label</h5>
+									        <p>Some representative placeholder content for the second slide.</p>
+									      </div>
+									    </div>
+									    <div class="carousel-item">
+									      <img src="https://placebear.com/500/300" class="d-block w-100" alt="Bear">
+									      <div class="carousel-caption d-none d-md-block">
+									        <h5>Third slide label</h5>
+									        <p>Some representative placeholder content for the third slide.</p>
+									      </div>
+									    </div>
+									  </div>
+									  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+									    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Previous</span>
+									  </button>
+									  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+									    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Next</span>
+									  </button>
+									</div>
+								</div>
+							</div>
+							<!-- End of Carousel -->
+
+						</div>
+
+						<!-- Cards -->
+						<div class= "bg-secondary text-light min-vh-100 p-3">
+							<h2>Other Projects</h2>
+							<div class = "d-flex flex-md-row flex-column justify-content-md-around align-items-center mt-2">
+								<!-- First card -->
+								<div class="card bg-dark col-md-3 col-10 mt-md-0 mt-2">
+								  <img src="./images/html.jpg" class="card-img-top p-2" alt="HTML Image">
+								  <div class="card-body">
+								    <h5 class="card-title">HTML</h5>
+								    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								    consequat.</p>
+								    <a href="#" class="btn btn-primary">Go to Project</a>
+								  </div>
+								</div>
+								<!-- End of first card -->
+
+								<!-- Second card -->
+									<div class="card bg-dark col-md-3 col-10 mt-md-0 mt-2">
+									  <img src="./images/bootstrap-illustration.png" class="card-img-top p-2" alt="Bootstrap Image">
+									  <div class="card-body">
+									    <h5 class="card-title">Bootstrap</h5>
+									    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									    consequat.</p>
+									    <a href="#" class="btn btn-primary">Go to Project</a>
+									  </div>
+									</div>
+								<!-- End of Second card -->
+
+								<!-- Third card -->
+									<div class="card bg-dark col-md-3 col-10 mt-md-0 mt-2">
+									  <img src="./images/nodejs.png" class="card-img-top p-2" alt="NodeJS Image">
+									  <div class="card-body">
+									    <h5 class="card-title">NodeJS</h5>
+									    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									    consequat.</p>
+									    <a href="#" class="btn btn-primary">Go to Project</a>
+									  </div>
+									</div>
+								<!-- End of the Third card -->
+							</div>
+						</div>
+						<!-- End of Cards -->
+						
+					</div>
+					<!-- Main Body -->
+				</div>
+			
+
+			
+
+
+			
+		</div>
+		<!-- End of Main Content -->
+
+
+
+
+
+
+		<!-- Bootstrap script -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</body>
+</html>
